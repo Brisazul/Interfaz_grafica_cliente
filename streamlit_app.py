@@ -73,7 +73,7 @@ def train_crops_model(df, temp2, precipitaciones2):
 # Función para cargar los datos directamente desde una URL
 @st.cache_data
 def load_data():
-    return pd.read_csv('impacto_del_cambio_climatico_en_la_agricultura.csv')
+    return pd.read_csv('/workspaces/Interfaz_grafica_cliente/impacto_del_cambio_climatico_en_la_agricultura.csv')
 
 # Cargar los datos
 df = load_data()
